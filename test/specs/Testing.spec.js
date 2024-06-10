@@ -60,7 +60,7 @@ describe('Detail Product Page', function () {
         await expect(detailProduct.textKimmy).toHaveText('Kimmy Dress 2.0')
 
     })
-    it('User memilih ekspedisi pengiriman produk', async function () {  //
+    it('User mengecek ekspedisi pengiriman produk', async function () {  //
         await detailProduct.chooseArea()
         await detailProduct.checkOngkir()
         await detailProduct.checkEkspedisi()
